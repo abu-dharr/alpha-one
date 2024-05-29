@@ -3,34 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>World of Homestyle - Coming Soon</title>
     <style>
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f3f4f6;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            font-family: Arial, sans-serif;
+            color: #333;
         }
         .container {
             text-align: center;
+            background: #fff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         h1 {
             font-size: 3em;
-            color: #333;
+            margin-bottom: 20px;
+            color: #2c3e50;
         }
         p {
             font-size: 1.2em;
-            color: #666;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+        .email-input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .notify-btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .notify-btn:hover {
+            background-color: #2980b9;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #3498db;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        .social-icons a:hover {
+            color: #2980b9;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Coming Soon</h1>
-        <p>We are working hard to give you a better experience. Stay tuned!</p>
+        <h1>World of Homestyle</h1>
+        <p>Your home, your style. We're almost ready to help you transform your living space!</p>
+        <p>Subscribe to be the first to know when we launch:</p>
+        <input type="email" class="email-input" placeholder="Enter your email">
+        <button class="notify-btn">Notify Me</button>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </div>
     </div>
 </body>
 </html>
